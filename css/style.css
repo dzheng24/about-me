@@ -1,20 +1,19 @@
 header{
     background-color:yellow;
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;   
 }
 
 h1{
     background-color:red;
     color: rgb(142, 39, 202);
+    font-size: 3em;
     font-family: cursive;
-    font-size: 2em;
 }
 
 h3{
     background-color:rgb(23, 161, 23);
     color: orange;
-    font-family: cursive;
     font-size: 2em;
     text-align: center;
 }
@@ -23,7 +22,16 @@ ul{
     background-color: pink;
     font-size: 2em;
     font-family: serif;
-    margin: 20px;
+    margin: 30px;
+}
+
+ol li{
+    display:block;;
+    text-align: center;
+    background-color: pink;
+    margin: 10px auto ;
+    font-size: 2em;
+    width: 10em;
 }
 
 body{
