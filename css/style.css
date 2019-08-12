@@ -1,39 +1,93 @@
+body{
+    background-color: gray;
+    margin: auto;
+}
+
 header{
-    background-color:yellow;
     font-size: 2em;
     text-align: center;   
 }
 
 h1{
-    background-color:red;
+    border-style: outset;
+    background-color: rgb(202, 161, 226);
     color: rgb(142, 39, 202);
     font-size: 3em;
-    font-family: cursive;
+    font-family: impact;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 800px;
 }
 
 h3{
     background-color:rgb(23, 161, 23);
     color: orange;
-    font-size: 2em;
-    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 6px;
+    text-align:center;
+    width:200px;
+    padding:20px 20px 20px 20px;
+}
+
+img{
+    float:left;
+    margin-top: -80px;
+    margin-left: 10px;
+    width:450px;
+}
+
+#nana{
+    float:left;
+    margin-left: 10px;
+    margin-top: 200px;
+}
+
+#skate{
+    float:right;
+    width:450px;
+    margin-right:10px;
+}
+
+.right{
+    margin-left:500px;
+}
+
+
+p{
+    border-radius:10px;
+    background-color:#FFD47A;
+    font-size:18px;
+    line-height:1.6;
+    width: 400px;
 }
 
 ul{
-    background-color: pink;
-    font-size: 2em;
-    font-family: serif;
-    margin: 30px;
+    border-radius: 20px;
+    background-color:#FFD47A;
+    display:block;
+    line-height:2;
+    list-style-type:disc;
+    margin-left:auto;
+    margin-right:auto;
+    width: 400px;
 }
 
-ol li{
-    display:block;;
-    text-align: center;
-    background-color: pink;
-    margin: 10px auto ;
-    font-size: 2em;
-    width: 10em;
+ol{
+    border-radius: 20px;
+    background-color:#FFD47A;
+    display:block;
+    list-style-type:decimal;
+    line-height:2;
+    margin-left:500px;
+    width: 400px;
 }
 
-body{
-    background-color: gray;
+#topTen{
+    width: 400px;
+    margin-left:auto;
+    margin-right:auto;
 }
+

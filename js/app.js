@@ -151,7 +151,7 @@ function questionsStates () {
 }
 questionsStates();
 
-alert('You got a '+ score + ' out of 7 on this!');
+alert('You got a '+ score + ' out of 7 on this! Thanks for playing!');
 
 
 
